@@ -1,0 +1,57 @@
+.contato-form-container{
+    width: 400px;
+    background-color: #524444;
+    margin: 10px auto 0 auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-texto{
+    font-size: 17px;
+    outline: none;
+}
+
+.text, .form-input, .form-input2, .input-texto {
+    list-style: none;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #524444;
+}
+
+.form-input{
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 95%;
+    padding: 0 5px;
+    height: 30px;
+}
+
+.form-input2{
+    font-size: 17px;
+}
+
+#mensagem {
+    height: 100px;
+    padding-top: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    .contato-form-container{
+        width: 75%;
+    }
+}
