@@ -10,6 +10,7 @@ function Detalhes(){
     return(
         <div>
             <Header />
+            
             <Footer />
         </div>
     )
